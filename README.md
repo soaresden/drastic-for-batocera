@@ -6,4 +6,5 @@ That is only POC not use on your install
 
 ```
 wget https://raw.githubusercontent.com/soaresden/drastic-for-batocera/eka2l1test-for-batocera/install.sh && chmod +x install.sh; ./install.sh
+
 ```
