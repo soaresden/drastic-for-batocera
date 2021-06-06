@@ -22,7 +22,7 @@ download_eka2l1(){
 
 download_es_systems(){
    echo "Download es_systems"
-   wget https://raw.githubusercontent.com/soaresden/drastic-for-batocera/master/es_systems.cfg > /dev/null 2>&1
+   wget https://raw.githubusercontent.com/soaresden/drastic-for-batocera/eka2l1test-for-batocera/es_systems.cfg > /dev/null 2>&1
    if [ -e "/userdata/system/configs/emulationstation/es_systems.cfg" ]; then
    mv /userdata/system/configs/emulationstation/es_systems.cfg /userdata/system/configs/emulationstation/es_systems.cfg.bak
    fi
